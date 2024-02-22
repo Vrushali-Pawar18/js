@@ -12,3 +12,6 @@
 //arr2 = [...ar1,"item3","item4","item5"](3 dots)
 //arr2 = [...ar1, ...ar3, ...arr4]
 //arr2 = arr1.slice(0).concat["item3","item4"];
+
+
+//https://9c59-2401-4900-1c45-b8c6-1184-e306-328d-1e0.ngrok-free.app/test?asin=B0BSV8TBVB&page=4
