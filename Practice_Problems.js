@@ -178,17 +178,30 @@
 
 //QUESTION 12: Find the maximum number in an array of numbers
 
-let input = prompt("Enter the elemnts of array");
-let array = input.split(",");
+// let input = prompt("Enter the elemnts of array");
+// let array = [4,5,9,6,8];                                                     
 
-for(let i =0;i<=array.length;i++){
-    let max = array[0];
-    if(array[i+1]>array[i]){
-        max = i+1;
+// let max = array[0];
+// for(let i =0;i<=array.length;i++){
+//     if(array[i]>max){
+//         max = array[i];
+//     }
+// }
+
+let array = [4,10,9,6,1]; 
+
+for(let i=0;i<=array.length-1;i++){
+    for(let j = 0;j<array.length-i-1;j++){
+        if(array[j]>array[j+1]){
+            let temp = array[j];
+            array[j] = array[j+1];
+            array[j+1] = temp;
+        }
     }
+    
 }
-
-console.log(max);
+console.log(array);
+console.log(array[array.length-2]);
 
 
 
