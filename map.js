@@ -1,5 +1,5 @@
 //map uses callback function
-//stores returnedvalues into an another array
+//stores returned values into an another array
 
 // const numbers = [3,4,8,9,5,6];
 
@@ -246,14 +246,14 @@ const products = [
 //used when we want to delete from array or insert into an array
 //start,insert,delete
 
-const array = ['item1','item2','item3'];
-//delete item
-// array.splice(1,1);
+// const array = ['item1','item2','item3'];
+// //delete item
+// // array.splice(1,1);
 
-//insert item
+// //insert item
 
-array.splice(1,0,'Vrushali')
-console.log(array);
+// array.splice(1,0,'Vrushali')
+// console.log(array);
 
 //****************************************************************************************************************** */
 
@@ -266,5 +266,83 @@ console.log(array);
 //and those we can access by index e.g. string
 
 
+//********************************************************************************************************************** */
 
+//set
+//iterable
+//stores data
+//order of elements not guarenteed
+//no index based axes
+//unique items only
+
+// const numbers = new Set();
+// numbers.add(1);
+// numbers.add(2);
+// numbers.add(3);
+// numbers.add(14);
+// console.log(numbers);
+
+// const array = [1,2,2,3,4,4,5,5,6,6,6,7,8];
+
+// const uniqueElements = new Set(array);
+// console.log(uniqueElements);
+// console.log(array);
+
+// //to find length of set
+
+// let length = 0;
+// for(number of uniqueElements){
+//     length++;
+// }
+// console.log(length);
+
+
+//***************************************************************************************** */
+
+//maps
+
+//stores key value pair
+
+//in objects key is either string or symbol
+//but in maaps key can be of any type
+
+// const person = new Map();
+// person.set("firstname", "Vrushali");
+// person.set("age",19);
+// person.set(1,'one');
+
+// console.log(person);
+// console.log(person.get("firstname"));
  
+
+// const person1 = {
+//     id:1,
+//     fname : "Vrushali"
+// }
+
+
+// const person2 = {
+//     id:2,
+//     fname : "Atharv"
+// }
+
+
+
+// const extrainfo = new Map();
+// extrainfo.set(person1,{gender : "female"});
+
+// constextrainf = new Map();
+// extrainfo.set(person2,{gender : "male"});
+
+// console.log(person1);
+// console.log(extrainfo.get(person1).gender);
+
+// console.log(person2);
+// console.log(extrainfo.get(person2).gender);
+
+//************************************************************************************************************* */
+
+//cloning of object
+
+//const obj2 = (...obj) --->one way
+//const obj2 = Object.assign({}, obj);
