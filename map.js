@@ -15,7 +15,7 @@
 //using arrow function
 // const squareNum = numbers.map((number) => number*number);
 
-// console.log(squareNum);
+// console.log(square);
 
 
 // const users = [
@@ -103,7 +103,7 @@
 
 //sort
 
-//javascripts sort the numbers as stering comparing to their ascii values
+//javascripts sort the numbers as string comparing to their ascii values
 
 // const userNames = ["Vrushali","Anushka","Atharv","Aditya"];
 // userNames.sort();
@@ -216,13 +216,13 @@
 // console.log(result);
 
 
-const products = [
-    {productId : 1 , product_name : "Laptop", price : 25000},
-    {productId : 2 , product_name : "TV", price : 10000},
-    {productId : 3 , product_name : "Mobile", price : 15000},
-    {productId : 4 , product_name : "Headphones", price : 2000},
-    {productId : 5 , product_name : "Speaker", price : 3000},
-]
+// const products = [
+//     {productId : 1 , product_name : "Laptop", price : 25000},
+//     {productId : 2 , product_name : "TV", price : 10000},
+//     {productId : 3 , product_name : "Mobile", price : 15000},
+//     {productId : 4 , product_name : "Headphones", price : 2000},
+//     {productId : 5 , product_name : "Speaker", price : 300000},
+// ]
 
 // const result = products.some((product) => product.price > 100000);
 // console.log(result);

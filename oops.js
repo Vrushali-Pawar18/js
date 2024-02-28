@@ -37,7 +37,7 @@
 
 //call apply and bind
 
-//call- using call we can access the function that is declared in another function
+//call- using call we can access the function/method that is declared in another function
 
 // const user1 = {
 //     firstName : "harshit",
@@ -54,25 +54,25 @@
 
 // user1.about.call(user2, "abc","xyz");
 
-//same as call just pass the arguments in an array
+//apply - same as call just pass the arguments in an array
 
 //  function about(hobby, favMusician){
 //     console.log(this.firstName, this.age, hobby, favMusician);
 // } 
 // const user1 = {
-//     firstName : "harshit",
+//     firstName : "Vrushali",
 //     age: 8,  
    
 // }
 // const user2 = {
-//     firstName : "mohit",
+//     firstName : "Anushka",
 //     age: 9,
     
 // }
 // about.call(user1,"abc","xyz");
 // about.apply(user2,["abc","xyz"]);
 
-//bind just stores the returned value ina function
+// bind just stores the returned value in a function
 // const func = about.bind(user1,"xyz","abc");
 // func();
 
@@ -80,34 +80,34 @@
 
 //****************************************************************************************************************** */
 
-const userMethods = {
-    about: function(){
-        console.log(`name : ${this.fname} and age : ${this.age}`);
-    },
-    is18: function(){
-        return this.age >=18;
-    }
-}
+// const userMethods = {
+//     about: function(){
+//         console.log(`name : ${this.fname} and age : ${this.age}`);
+//     },
+//     is18: function(){
+//         return this.age >=18;
+//     }
+// }
 
-function createUser(fname,lname,email,address,age){
-    const user = {};
-    user.fname = fname;
-    user.lname = lname;
-    user.email = email;
-    user.address  = address;
-    user.age = age;
-    user.about =userMethods.about;
-    user.is18 = userMethods.is18;
+// function createUser(fname,lname,email,address,age){
+//     const user = {};
+//     user.fname = fname;
+//     user.lname = lname;
+//     user.email = email;
+//     user.address  = address;
+//     user.age = age;
+//     user.about =userMethods.about;
+//     user.is18 = userMethods.is18;
 
-    return user;
+//     return user;
 
-}
+// }
 
-const user1 = createUser("Vrushali","Pawar","abc@gmail.com","xyz",23);
-const user2 = createUser("Anushka","Pawar","qwer@gmail.com","cbn",13);
+// const user1 = createUser("Vrushali","Pawar","abc@gmail.com","xyz",23);
+// const user2 = createUser("Anushka","Pawar","qwer@gmail.com","cbn",13);
 
-console.log(user1);
-console.log(user2);
+// console.log(user1);
+// console.log(user2);
 
-console.log(user2.about());
-console.log(user1.is18());
+// console.log(user2.about());
+// console.log(user1.is18());

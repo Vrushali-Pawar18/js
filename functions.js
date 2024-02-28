@@ -59,7 +59,7 @@
 // app();
 
 //********************************************************************************************************************** */
-//lexical scope - lexical environment means in which scope the function is declared
+//lexical scope - lexical environment means scope in which the function is declared
 
 // function myapp(){
 
@@ -149,11 +149,11 @@
 
 //parameter destructuring
 
-const person = {
-    fname : "Vrushali",
-    age : 23,
-    gender : "female"
-}
+// const person = {
+//     fname : "Vrushali",
+//     age : 23,
+//     gender : "female"
+// }
 
 //first way
 // function paramdestuc(obj){
@@ -220,7 +220,7 @@ const person = {
 
 //foreach loop
 
-const numbers = [3,4,5,7,8];
+// const numbers = [3,4,5,7,8];
 
 // function iterate(number, index){
 //     console.log(`Index is ${index} and number is ${number}`);
@@ -234,15 +234,15 @@ const numbers = [3,4,5,7,8];
 // });
 
 
-const users = [
-    {fname : "Vrushali" , age : 23},
-    {fname : "Atharv" , age : 24},
-    {fname : "Aditya" , age : 33},
-    {fname : "Anushka" , age : 53},
-    {fname : "Prajyot" , age : 73},
-    {fname : "Ankit" , age : 83},
-]
+// const users = [
+//     {fname : "Vrushali" , age : 23},
+//     {fname : "Atharv" , age : 24},
+//     {fname : "Aditya" , age : 33},
+//     {fname : "Anushka" , age : 53},
+//     {fname : "Prajyot" , age : 73},
+//     {fname : "Ankit" , age : 83},
+// ]
 
-users.forEach(function(user){
-    console.log(`fname : ${user.fname} age : ${user.age}`);
-})
+// users.forEach(function(user){
+//     console.log(`fname : ${user.fname} age : ${user.age}`);
+// })

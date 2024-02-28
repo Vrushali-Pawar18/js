@@ -1,5 +1,5 @@
 
-// //computed properties
+//computed properties
 // const key1 = "objkey1";
 // const key2 = "objkey2";
 
@@ -50,10 +50,10 @@ const users = [
     {userId : 3,name : "anushka", age : 13}
 ]
 
-// const [user1,user2,user3] = users;
-// console.log(user1);
-// console.log(user2);
-// console.log(user3);
+const [user1,user2,user3] = users;
+console.log(user1);
+console.log(user2);
+console.log(user3);
 
 //fetching the objects of user
 const [{name:fname},{userId},{age}] = users;

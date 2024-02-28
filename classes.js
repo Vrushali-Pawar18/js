@@ -24,7 +24,7 @@ class CreateUser{
 }
 
 
-const user1 = new CreateUser('harshit', 'vashsith', 'harshit@gmail.com', 18, "my address");
-const user2 = new CreateUser('harsh', 'vashsith', 'harshit@gmail.com', 19, "my address");
-const user3 = new CreateUser('mohit', 'vashsitha', 'harshit@gmail.com', 17, "my address");
+const user1 = new CreateUser('Vrushali', 'pawar','Vrushali@gmail.com', 18, "my address");
+const user2 = new CreateUser('Anushka', 'Gosavi', 'Anushka@gmail.com', 19, "my address");
+const user3 = new CreateUser('Atharv', 'Sarode', 'haAtharvrshit@gmail.com', 17, "my address");
 // console.log(Object.getPrototypeOf(user1));
