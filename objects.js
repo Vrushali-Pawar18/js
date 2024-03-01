@@ -6,7 +6,7 @@ const person = {
 
 // console.log(person.age);
 // person.gender = "female"; 
-// console.log(person);
+console.log(person);
 // console.log(person.hobbies);
 
 // //bracket notations
@@ -21,6 +21,6 @@ const person = {
 // }
 
 //Object.keys gives us the array of keys present in the oobject.
-for(let key of Object.keys(person)){
-    console.log(person[key]);
-}
+// for(let key of Object.keys(person)){
+//     console.log(person[key]);
+// }

@@ -346,3 +346,31 @@
 
 //const obj2 = (...obj) --->one way
 //const obj2 = Object.assign({}, obj);
+
+// const arr = [8,4,1,9,6,10];
+
+// for(let i=0;i<arr.length;i++){
+//     for(let j = 0;j<arr.length-i;j++){
+//         if(arr[j]>arr[j+1]){
+//             let temp = arr[j];
+//             arr[j] = arr[j+1];
+//             arr[j+1] = temp;
+//         }
+//     }
+// }
+
+// console.log(arr);
+
+
+const arr = ["Vrushali","Chetan","Ankush","Vaishnavi","Aakash","Vaibhav"];
+let len = arr.length;
+for(let i=0;i<len;i++ ){
+    for(let j=0;j<len-i;j++){
+        if(arr[j] > arr[j+1]){
+            let temp = arr[j];
+            arr[j] = arr[j+1];
+            arr[j+1] = temp;
+        }
+    }
+}
+console.log(arr);
