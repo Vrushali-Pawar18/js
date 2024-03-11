@@ -43,8 +43,14 @@ console.log(link.getAttribute("href").slice(1));
 // get multiple elements using getElements by class name 
 // get multiple elements items using querySelectorAll
 
-const navItems1 = document.getElementsByClassName("nav-item"); // HTMLCollection
-console.log(navItems);
-console.log(Array.isArray(navItems));
-const navItems = document.querySelectorAll(".nav-item"); // NodeList
-console.log(navItems[1]);
+// const navItems1 = document.getElementsByClassName("nav-item"); // HTMLCollection
+// console.log(navItems);
+// console.log(Array.isArray(navItems));
+// const navItems = document.querySelectorAll(".nav-item"); // NodeList
+// console.log(navItems[1]);
+
+//************************************************************************************************************* */
+
+
+
+
