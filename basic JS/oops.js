@@ -111,3 +111,28 @@
 
 // console.log(user2.about());
 // console.log(user1.is18());
+
+
+
+
+
+
+
+// let s1 = "Vrushali";
+
+// let i = 0;
+// let j = s1.length - 1;
+
+// let s1Array = s1.split('');
+
+// while (i < j) {
+//     let temp = s1Array[i];
+//     s1Array[i] = s1Array[j];
+//     s1Array[j] = temp;
+//     i++;
+//     j--;
+// }
+
+// let reversedString = s1Array.join('');
+
+// console.log(reversedString);
