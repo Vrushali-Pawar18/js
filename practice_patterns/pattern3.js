@@ -1,10 +1,10 @@
-let alphabet = "ABCDE";
+let n =4; 
 
 let pattern= "";
 
-for (let i = 0; i<alphabet.length; i++) {
+for (let i = 0; i<n; i++) {
     for (let j = 0; j <=i; j++) {
-        pattern += alphabet[i] + " ";
+        pattern += String.fromCharCode(65 + i) + " ";
     }
   pattern += "\n";
 
