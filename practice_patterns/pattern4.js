@@ -12,7 +12,7 @@ for(let i = 0; i < n; i++) {
   }
   pattern += "\n";
 }
-// printing the string
+
 console.log(pattern);
 
 
